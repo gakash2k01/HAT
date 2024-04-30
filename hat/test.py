@@ -1,6 +1,7 @@
 # flake8: noqa
 import os.path as osp
-
+import sys
+sys.path.append('.')
 import hat.archs
 import hat.data
 import hat.models

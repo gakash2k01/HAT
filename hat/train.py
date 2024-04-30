@@ -1,6 +1,9 @@
 # flake8: noqa
+import os
 import os.path as osp
-
+import sys
+sys.path.append('.')
+os.environ['RANK'] = '0'
 import hat.archs
 import hat.data
 import hat.models
